@@ -20,5 +20,6 @@ from index import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^index/$', views.test_api_manage)
+    url(r'^index/$', views.test_api_manage),
+    url(r'^get-table-data/$', views.get_table_data)
 ]
